@@ -12,7 +12,7 @@ export default function Caracteristicas({proporcional}) {
         <div style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional}}>
             <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto'}}>
                 <div style={{width: '32%', height: 'auto', border: '1px solid rgb(230, 230, 230)'}}>
-                    <img src={image_servicios_01} style={{width: 475 / proporcional, height: 317 / proporcional}}/>
+                    <img src={image_servicios_01} style={{width: '100%', height: 317 / proporcional}}/>
                     <div style={{width: '100%', height: 'auto', padding: 30 / proporcional}}>
                         <p style={{fontSize: 14 / proporcional, fontWeight: 300, lineHeight: `${16 / proporcional}px`, color: 'rgb(24, 54, 80)', marginBottom: 19 / proporcional}}>
                             TERRENO LOGÍSTICO EN ASIA PACÍFICO
@@ -50,7 +50,7 @@ export default function Caracteristicas({proporcional}) {
                     </div>
                 </div>
                 <div style={{width: '32%', height: 'auto', border: '1px solid rgb(230, 230, 230)'}}>
-                    <img src={image_servicios_02} style={{width: 475 / proporcional, height: 317 / proporcional}}/>
+                    <img src={image_servicios_02} style={{width: '100%', height: 317 / proporcional}}/>
                     <div style={{width: '100%', height: 'auto', padding: 30 / proporcional}}>
                         <p style={{fontSize: 14 / proporcional, fontWeight: 300, lineHeight: `${16 / proporcional}px`, color: 'rgb(24, 54, 80)', marginBottom: 19 / proporcional}}>
                             TRANSPORTE POR EUROPA
@@ -106,7 +106,7 @@ export default function Caracteristicas({proporcional}) {
                     </div>
                 </div>
                 <div style={{width: '32%', height: 'auto', border: '1px solid rgb(230, 230, 230)'}}>
-                    <img src={image_servicios_03} style={{width: 475 / proporcional, height: 317 / proporcional}}/>
+                    <img src={image_servicios_03} style={{width: '100%', height: 317 / proporcional}}/>
                     <div style={{width: '100%', height: 'auto', padding: 30 / proporcional}}>
                         <p style={{fontSize: 14 / proporcional, fontWeight: 300, lineHeight: `${16 / proporcional}px`, color: 'rgb(24, 54, 80)', marginBottom: 19 / proporcional}}>
                             TERRENO LOGÍSTICO EN NORTEAMÉRICA

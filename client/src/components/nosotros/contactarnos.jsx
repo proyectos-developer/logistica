@@ -8,7 +8,7 @@ export default function Contactarnos({proporcional}) {
     const [boton_contactar, setBotonContactar] = useState (false)
 
     return (
-        <div className='d-flex justify-content-between' style={{width: '100%', height: 50 / proporcional}}>
+        <div className='d-flex justify-content-between' style={{width: '100%', height: 200 / proporcional}}>
             <p className='d-flex justify-content-start' 
                 style={{fontSize: 50 / proporcional, lineHeight: `${200 / proporcional}px`, marginBottom: 0 / proporcional, color: 'white',
                         fontWeight: 500, fontFamily: 'Lato, sans-serif', cursor: 'default', marginRight: 20 / proporcional}}>

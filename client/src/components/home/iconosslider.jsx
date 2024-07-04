@@ -12,8 +12,8 @@ import icono_buque_blue from '../../assets/iconos/icono_buque_carga_blue_96.png'
 export default function IconosSlider({proporcional}) {
 
     return (
-        <div className='position-absolute' style={{width: '100%', height: 380 / proporcional, top: 620 / proporcional, left: 200 / proporcional}}>
-            <div className='d-flex justify-content-between' style={{width: 1520 / proporcional, height: 380 / proporcional}}>
+        <div className='position-absolute' style={{width: '100%', height: 380 / proporcional, top: 620 / proporcional, paddingLeft: 200 / proporcional, paddingRight: 200 / proporcional}}>
+            <div className='d-flex justify-content-between' style={{width: '100%', height: 380 / proporcional}}>
                 <div className='d-flex justify-content-center' style={{width: '25%', height: 380 / proporcional}}>
                     <img src={icono_camion_white} style={{width: 128 / proporcional, height: 128 / proporcional, marginTop: 180 / proporcional}}/>
                 </div>

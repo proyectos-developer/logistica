@@ -63,7 +63,7 @@ export default function ComentariosClientes({proporcional}) {
                         <div className='position-relative' style={{width: '100%', height: 700 / proporcional, backgroundImage: `url(${image_01})`, backgroundPosition: 'center', backgroundSize: 'cover', 
                                 backgroundRepeat: 'no-repeat'}}>
                             <div className='position-absolute top-0 start-0' style={{width: '100%', height: 700 / proporcional, background: 'rgb(39, 39, 39, 0.6)'}}/>
-                            <div className='position-absolute shadow rounded' style={{width: 650 / proporcional, height: 450 / proporcional, top: 125 / proporcional, left: 200 / proporcional,
+                            <div className='position-absolute top-50 start-50 translate-middle shadow rounded' style={{width: 650 / proporcional, height: 450 / proporcional, top: 125 / proporcional, left: 200 / proporcional,
                                 background: 'white', padding: 50 / proporcional}}>
                                 <div className='d-flex justify-content-center' style={{width: '100%', height: 64 / proporcional, marginBottom: 20 / proporcional}}>
                                     <img className='rounded-circle' 
@@ -100,7 +100,7 @@ export default function ComentariosClientes({proporcional}) {
                         <div className='position-relative' style={{width: '100%', height: 700 / proporcional, backgroundImage: `url(${image_02})`, backgroundPosition: 'center', backgroundSize: 'cover', 
                                 backgroundRepeat: 'no-repeat'}}>
                             <div className='position-absolute top-0 start-0' style={{width: '100%', height: 700 / proporcional, background: 'rgb(39, 39, 39, 0.6)'}}/>
-                            <div className='position-absolute shadow rounded' style={{width: 650 / proporcional, height: 450 / proporcional, top: 125 / proporcional, right: 200 / proporcional,
+                            <div className='position-absolute top-50 start-50 translate-middle shadow rounded' style={{width: 650 / proporcional, height: 450 / proporcional, top: 125 / proporcional, right: 200 / proporcional,
                                 background: 'white', padding: 50 / proporcional}}>
                                 <div className='d-flex justify-content-center' style={{width: '100%', height: 64 / proporcional, marginBottom: 20 / proporcional}}>
                                     <img className='rounded-circle' 
